@@ -43,7 +43,6 @@ article {
   min-width: 20em;
   
   border-radius: 1rem;
-  background: linear-gradient(0deg, rgb(0 239 255) 40%, #4e54c8 100%);
   box-shadow: 0 0 20px 20px rgb(0 0 0 / .1);
   
   transition: .25s;
