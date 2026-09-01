@@ -22,6 +22,7 @@ body {
   height: 100vh;
   
   font-family: open sans;
+  color: #50191d; /* de tekst kleur wordt in hex kleuren bepaald. */
 }
 
 /* ARTICLE */
@@ -43,6 +44,7 @@ article {
   
   border-radius: 1rem;
   background: rgb(246, 228, 187);
+  background: linear-gradient(0deg, rgb(234, 170, 174) 40%, #a85a5a 100%);
   box-shadow: 0 0 20px 20px rgba(76, 52, 52, 0.1);
   
   transition: .25s;
@@ -62,6 +64,7 @@ header {
 h1 {
   margin: 2rem 0 1rem 0; /* Margin is de ruimte om het element heen. Boven beginnen, met de klok mee */
   
+  color: rgb(86, 33, 42); /* De tekst kleur wordt in rgb() bepaald. */
 }
 
 /* P */
@@ -69,7 +72,7 @@ h1 {
 /* Om een element met class te selecteren gebruik je een . in de selector */
 p.slogan {
   font-size:1.25em;
-  color:#030711;
+  color:#3b1e1e;
 }
 
 /* BUTTON */
@@ -85,7 +88,7 @@ button {
   
   border: none;
   border-radius: 50%; /* De border-radius geeft de <button> ronde hoekjes. */
-  background: rgb(0 239 255);
+  background: rgb(246, 228, 187);
   
   scale:.8;
   
@@ -96,12 +99,12 @@ button {
 /* :hover is een 'Pseudo-class selector', daarmee worden interacties op het element gestyled. */
 button:hover {
   cursor: pointer;
-  background: darkgoldenrod;
+  background: rgb(188, 162, 97);
 }
 /* Met de 'Pseudo-class selector' :focus kan je bepalen hoe het element er uit moet zien als de tab toets op het toetsenbord wordt gebruikt. */
 button:focus {
   outline: none;
-  background: darkgoldenrod;
+  background: rgb(213, 188, 124);
 }
 
 /* In het <button> element staat een <svg> voor het icoon. */
@@ -111,7 +114,7 @@ button svg {
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
   
-  stroke: #4e54c8;
+  stroke: #c84e81;
   
   transition: .25s;
   transition-delay: .25s; /* Een transitie op het <svg> element begin 0.25 seconde later. */
