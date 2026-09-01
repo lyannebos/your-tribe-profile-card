@@ -22,7 +22,6 @@ body {
   height: 100vh;
   
   font-family: open sans;
-  color: #10214e; /* de tekst kleur wordt in hex kleuren bepaald. */
 }
 
 /* ARTICLE */
@@ -44,7 +43,6 @@ article {
   
   border-radius: 1rem;
   background: rgb(246, 228, 187);
-  background: linear-gradient(0deg, rgb(221, 156, 160) 40%, #a85a5a 100%);
   box-shadow: 0 0 20px 20px rgba(76, 52, 52, 0.1);
   
   transition: .25s;
