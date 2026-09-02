@@ -100,7 +100,6 @@ button:hover {
 /* Met de 'Pseudo-class selector' :focus kan je bepalen hoe het element er uit moet zien als de tab toets op het toetsenbord wordt gebruikt. */
 button:focus {
   outline: none;
-  background: rgb(213, 188, 124);
 }
 
 /* In het <button> element staat een <svg> voor het icoon. */
