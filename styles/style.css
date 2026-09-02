@@ -20,6 +20,7 @@ body {
   height: 100vh;
   
   color: #50191d; /* de tekst kleur wordt in hex kleuren bepaald. */
+  background-image: url(../assets/Wallpaper-pink.png);
 }
 
 /* ARTICLE */
