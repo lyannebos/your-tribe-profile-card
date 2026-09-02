@@ -6,6 +6,8 @@
 /* Hier wordt met een 'type selector' een element in de html geselecteerd. */
 /* Dit verwijst naar het <html> element. De <html> krijgt een lichtgele achtergrond. */
 
+html { 
+  
 }
 
 /* BODY */
@@ -17,8 +19,10 @@ body {
   justify-content: center;
   align-items: center;
   
+  
   height: 100vh;
   
+  font-family:Arial, Helvetica, sans-serif;
   color: #50191d; /* de tekst kleur wordt in hex kleuren bepaald. */
   background-image: url(../assets/Wallpaper-pink.png);
 }
@@ -71,6 +75,7 @@ h1 {
 p.slogan {
   font-size:1.25em;
   color:#3b1e1e;
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Class selector geeft de slogan een nieuwe font */
 }
 
 /* BUTTON */
@@ -97,10 +102,12 @@ button {
 /* :hover is een 'Pseudo-class selector', daarmee worden interacties op het element gestyled. */
 button:hover {
   cursor: pointer;
+  background: rgb(188, 106, 97);
 }
 /* Met de 'Pseudo-class selector' :focus kan je bepalen hoe het element er uit moet zien als de tab toets op het toetsenbord wordt gebruikt. */
 button:focus {
   outline: none;
+  background: rgb(210, 156, 109);
 }
 
 /* In het <button> element staat een <svg> voor het icoon. */
@@ -136,6 +143,7 @@ img {
   width: 10em;
   height: auto;
   
+  border: 5px solid #ffe090;
   border-radius: 10em;
   box-shadow: 0 0 2px 2px rgb(0 0 0 /.2);
   
