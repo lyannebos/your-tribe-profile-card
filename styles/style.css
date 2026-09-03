@@ -90,6 +90,9 @@ h1 {
 /* Hier krijgt de <p> met de class slogan de styling. */
 /* Om een element met class te selecteren gebruik je een . in de selector */
 p.slogan {
+  font-size:1.10em;
+  margin: -1;
+  text-align: center;
   color:rgb(232, 218, 218);
   font-family: Georgia, 'Times New Roman', Times, serif; /* Class selector geeft de slogan een nieuwe font */
 }
