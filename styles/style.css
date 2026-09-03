@@ -249,6 +249,10 @@ body.is-expanded {
   font-size: 1.15em;
 }
 
+body.is-expanded .feitjes {
+  font-size: 1.25em
+}
+
 body.is-expanded article {
   width: 60vw;
   max-width: 60vw;
