@@ -237,8 +237,10 @@ p {
 /* Dit selecteert dus niet de <p> in de <header>. */
 article > p {
   width: 100%;
+  margin-top: 1;
   padding: 3rem 2rem;
   
+  background: rgba(255, 216, 182, 0.5);
   border-radius: 0 0 1rem 1rem;
   text-align: center;
   
@@ -249,9 +251,6 @@ body.is-expanded {
   font-size: 1.15em;
 }
 
-body.is-expanded .feitjes {
-  font-size: 1.25em
-}
 
 body.is-expanded article {
   width: 60vw;
