@@ -52,6 +52,9 @@ article {
 
 .feitjes { 
 
+display: flex;
+justify-content: center;
+gap: 3rem; 
   
   width: 100%;
   margin-top: -1rem;
@@ -61,8 +64,12 @@ article {
   text-align: left;
   background: rgb(144, 102, 72);
 
+  
 
+  
 }
+
+
 
 
 header {
@@ -83,7 +90,6 @@ h1 {
 /* Hier krijgt de <p> met de class slogan de styling. */
 /* Om een element met class te selecteren gebruik je een . in de selector */
 p.slogan {
-  font-size:1.25em;
   color:rgb(232, 218, 218);
   font-family: Georgia, 'Times New Roman', Times, serif; /* Class selector geeft de slogan een nieuwe font */
 }
@@ -228,12 +234,11 @@ p {
 /* Dit selecteert dus niet de <p> in de <header>. */
 article > p {
   width: 100%;
-  margin-top: 0;
   padding: 3rem 2rem;
   
-  background: rgb(255 255 255 / 0.5);
   border-radius: 0 0 1rem 1rem;
   text-align: center;
+  
 }
 
 /* Deze styles zijn van toepassing als op de knop wordt geklikt */
